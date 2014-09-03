@@ -12,6 +12,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
     </flow>
     <flow name="orderserviceFlow2" doc:name="orderserviceFlow2">
         <http:inbound-endpoint exchange-pattern="request-response" host="localhost" port="8084" doc:name="HTTP"/>
-        <set-payload doc:name="Set Payload" value="{&quot;price service invoked&quot;}"/>
+        <set-payload doc:name="Set Payload" value="{&quot;price service invoked Yes&quot;}"/>
     </flow>
 </mule>
